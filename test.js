@@ -28,6 +28,7 @@ http.createServer(function(req,res){
 		}
 		else
 		{
+			console.log("hello");
 			client.push(res);
 		}
 
@@ -49,4 +50,4 @@ http.createServer(function(req,res){
 	
 
 }).listen(8081);
-   console.log("now server is running in port 8081");
+console.log("now server is running in port 8081");
