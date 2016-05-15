@@ -17,6 +17,7 @@ db.once('open',function(){
 	coll=db.collection('books');
 	app.listen(3000);
 	console.log("my server is running");
+	console.log("second message of my server is running")
 });
 
 app.get('/', function(req, res) { 
