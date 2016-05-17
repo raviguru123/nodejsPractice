@@ -20,6 +20,7 @@ db.once('open',function(){
 	
 });
 
+
 app.get('/', function(req, res) { 
 	debugger;
   coll.find({}, function(err, docs) {
