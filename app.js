@@ -16,7 +16,7 @@ db.once('open',function(){
 	console.log("successfull connect mongodb database bookstore");
 	coll=db.collection('books');
 	app.listen(3000);
-	console.log("my server is running");
+	console.log("my server is running",coll);
 	
 });
 
