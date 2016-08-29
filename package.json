@@ -1,19 +1,19 @@
 {
-	"name": "nodejsPrectice",
-	"version": "0.0.0",
-	"description": "Simple bookstoreApp",
-	"main": "app.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-		},
-		"dependencies":
-		{
-			"express":"*",
-			"body-parser":"*",
-			"mongoose":"*",
-			"fs":"*",
-			"url":"*"
-		},
-			"author": "Ravi Guru",
-			"license": "ISC"
-		}
+  "name": "nodejsPrectice",
+  "version": "0.0.0",
+  "description": "Simple bookstoreApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "connect": "^3.4.1",
+    "express": "*",
+    "fs": "*",
+    "mongoose": "*",
+    "url": "*"
+  },
+  "author": "Ravi Guru",
+  "license": "ISC"
+}
